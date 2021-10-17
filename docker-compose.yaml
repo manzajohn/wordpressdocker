@@ -10,6 +10,4 @@ services:
           MYSQL_DATABASE: wordpress
           MYSQL_ROOT_PASSWORD: "12345"
       volumes:
-          - ./.mysql:/var/lib/mysql
-      ports:
-          - "3306:3306"    
+          - ./.mysql:/var/lib/mysql   
